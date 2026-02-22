@@ -1,0 +1,31 @@
+students= []
+
+while True:
+    print("\n1. Add Student")
+    print("2. Exit")
+    
+    choice=input("Enter your choice:")
+    
+    if choice=="1"                                            name=input("Enter your name:")
+     roll=int(input("Enter your roll number:"))
+     physics=int(input("Enter your physics marks:"))
+     chemistry=int(input("Enter your chemistry marks:"))
+     maths=int(input("Enter your maths marks:"))
+        student={
+              "name":name,
+              "roll":roll,
+              "physics":physics,
+              "chemistry":chemistry,
+              "maths":maths,
+        }
+        students.append(student)
+        print("succesfully added as a student")
+        
+        elif choice=="2":
+           break
+           
+         else:
+         	print("Invalid choice , try again")
+       
+           
+        
